@@ -164,7 +164,6 @@ pre {
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
-  white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9;
@@ -304,6 +303,10 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+}
+
+.posts .post {
+  margin-bottom: 0;
 }
 
 /* Blog post or page title */
